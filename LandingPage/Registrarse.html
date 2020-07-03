@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>EatSafe</title>
+        <link rel="stylesheet" type="text/css" href="CSS/TodoCSS.css">
+        <link rel="stylesheet" type="text/css" href="CSS/Registrarse.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="BarraPrincipal">
+            <p id="pRegistro" class="pPrincipal">Registrarte</p>
+            <div class="divInput">
+                <div class="SubDiv">   
+                    <a id="AlmacenImagen">
+                        <img id="IconoImagen"src="Registro-Login/usuario.png">
+                        <input type="text" id="inputNombre" class="pinputPrincipal" placeholder="Nombres">
+                    </a>          
+                   
+                </div>
+                <div class="SubDiv">
+                    <a id="AlmacenImagen">
+                        <img id="IconoImagen"src="Registro-Login/usuario.png">
+                        <input type="text" id="inputApellido" class="pinputPrincipal" placeholder="Apellidos">
+                    </a> 
+                    
+                </div>
+                <div class="SubDiv">
+                    <a id="AlmacenImagen">
+                        <img id="IconoImagen"src="Registro-Login/contrasena.png">
+                        <input type="password" id="inputContraseña" class="pinputPrincipal" placeholder="Contraseña">
+                    </a> 
+                    
+                </div>
+                <div class="SubDiv">
+                    <a id="AlmacenImagen">
+                        <img id="IconoImagen"src="Registro-Login/Correo.png">
+                        <input type="email" id="inputCorreo" class="pinputPrincipal" placeholder="Correo">
+                    </a> 
+                    
+                </div>
+                <div class="SubDiv">
+                    <a id="AlmacenImagen">
+                        <img id="IconoImagen"src="Registro-Login/llamada.png">
+                        <input type="text" id="inputCelular" class="pinputPrincipal" placeholder="Celular">
+                    </a> 
+                   
+                </div>
+                <div class="SubDiv">
+                    <a id="AlmacenImagen">
+                        <img id="IconoImagen"src="Registro-Login/charla.png">
+                        <input type="text" id="inputComentario" class="pinputPrincipal" placeholder="Envia un msg para darte mas informacion">
+                    </a>                     
+                </div>
+                <p id="pRelleno" class="">Debe rellenar todos los campos</p>
+            </div>
+            <div id="RegistroFinal"class="divRegistroFinal">
+                <a id="aEncima" class="aRegistroFinal" onclick="Click()">Registrarse</a>
+            </div>
+        </div>        
+    </body>
+    <script>
+        function Click(){
+            alert("Gracias por registrarte")
+        }
+    </script>
+</html>

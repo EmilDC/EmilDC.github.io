@@ -1,0 +1,89 @@
+.BarraPrincipal{
+    width: 600px;
+    background-color: rgb(255, 224, 249);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+p.pPrincipal{
+    font-size: 35px;
+    font-family: 'Courgette', cursive;
+    font-weight: bold;
+    text-align: center;
+    color:magenta
+}
+
+input.pinputPrincipal{
+    position: absolute;
+    width: 400px;
+    height: 20px;
+    font-size: 20px;
+    padding: 15px;
+    margin-top: 5px;
+}
+
+div.divInput{
+    height: 600px;
+}
+
+div.SubDiv{   
+    height: 5px;
+    margin-bottom: 80px;
+}
+
+a#AlmacenImagen{
+    position: absolute;
+    font-size: 40px;
+    text-decoration: none;
+    margin-left: -220px;
+    font-family: 'Roboto', sans-serif;
+    padding: 13px;
+    color: white;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -10%);
+}
+
+img#IconoImagen{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    padding: 13px;
+}
+
+a.aRegistroFinal{
+    position: absolute;
+    font-size: 40px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    background: rgb(255, 152, 238);
+    padding: 13px;
+    color: white;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -10%);
+}
+
+a#aEncima:hover{
+    background: magenta;
+    color: white;
+    cursor: pointer;
+}
+
+
+div.divRegistroFinal{    
+    height: 100px;
+    margin-top: 20px;
+}
+
+p#pRelleno{
+    display: none;
+    margin-top: 28px;
+    position: absolute;
+    font-size: 30px;    
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 66, 91);
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -10%);
+}
